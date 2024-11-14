@@ -1,10 +1,12 @@
-module com.example.womenshop {
+module com.example.plm {
+    requires javafx.graphics;
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
-    requires org.jetbrains.annotations;
 
+    exports com.example.login;
+    exports com.example.plm;
 
-    opens com.example.womenshop to javafx.fxml;
-    exports com.example.womenshop;
+    opens com.example.login to javafx.fxml;
+    opens com.example.plm to javafx.fxml;
 }
