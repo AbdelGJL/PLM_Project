@@ -10,7 +10,7 @@
 <AnchorPane fx:controller="com.example.plm.Controller" minHeight="0.0" minWidth="0.0" prefHeight="250.0" prefWidth="318.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button layoutX="126.0" layoutY="182.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="84.0" text="Sign up" />
-      <Hyperlink layoutX="149.0" layoutY="210.0" text="Login" />
+      <Hyperlink layoutX="149.0" layoutY="210.0" onAction="#GoToLogin" text="Login" />
       <TextArea layoutX="49.0" layoutY="48.0" prefHeight="0.0" prefWidth="238.0" />
       <PasswordField layoutX="49.0" layoutY="125.0" prefHeight="38.0" prefWidth="239.0" />
       <Label layoutX="49.0" layoutY="30.0" text="E-mail" />
